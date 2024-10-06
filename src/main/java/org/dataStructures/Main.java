@@ -1,5 +1,6 @@
 package org.dataStructures;
 
+import org.dataStructures.Stacks.StacksWithMin;
 import org.dataStructures.Stacks.TwoInOne;
 
 public class Main {
@@ -73,26 +74,56 @@ public class Main {
         //System.out.println(ReversingString.reverseString("Tomal"));
 
 
-        TwoInOne stack=new TwoInOne();
-        stack.push1(1);
-        stack.push1(2);
-        stack.push1(5);
-        stack.push2(6);
-        stack.push2(7);
-        System.out.println(stack.pop1());
-        System.out.println(stack.pop1());
-        System.out.println(stack.pop1());
-        stack.push2(11);
-        stack.push2(12);
-        stack.push2(13);
-        System.out.println(stack.pop2());
-        System.out.println(stack.pop2());
-        System.out.println(stack.pop2());
-        System.out.println(stack.pop2());
-        System.out.println(stack.pop2());
+//        TwoInOne stack=new TwoInOne();
+//        stack.push1(1);
+//        stack.push1(2);
+//        stack.push1(5);
+//        stack.push2(6);
+//        stack.push2(7);
+//        System.out.println(stack.pop1());
+//        System.out.println(stack.pop1());
+//        System.out.println(stack.pop1());
+//        stack.push2(11);
+//        stack.push2(12);
+//        stack.push2(13);
+//        System.out.println(stack.pop2());
+//        System.out.println(stack.pop2());
+//        System.out.println(stack.pop2());
+//        System.out.println(stack.pop2());
+//        System.out.println(stack.pop2());
+//        stack.print();
 
+        StacksWithMin stack=new StacksWithMin();
 
-        stack.print();
+        stack.push(7);
+        stack.push(8);
+        stack.push(3);
+        stack.push(2);
+        stack.push(1);
+        stack.push(32);
+        stack.push(74);
+        stack.push(19);
+        stack.push(7);
+        stack.push(-17);
+        stack.push(1);
+        stack.push(72);
+        stack.push(15);
+        stack.push(32);
+
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+
+        System.out.println(stack.min());
 
 
 
