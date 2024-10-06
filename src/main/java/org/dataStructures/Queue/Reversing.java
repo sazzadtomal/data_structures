@@ -1,6 +1,5 @@
-package org.example.Queue;
+package org.dataStructures.Queue;
 
-import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 

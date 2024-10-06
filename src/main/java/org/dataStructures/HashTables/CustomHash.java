@@ -1,4 +1,4 @@
-package org.example.HashTables;
+package org.dataStructures.HashTables;
 
 import java.util.LinkedList;
 

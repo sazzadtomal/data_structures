@@ -1,4 +1,4 @@
-package org.example.LinkedList;
+package org.dataStructures.LinkedList;
 
 public class LinkedList {
 

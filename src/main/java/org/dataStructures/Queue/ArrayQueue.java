@@ -1,4 +1,4 @@
-package org.example.Queue;
+package org.dataStructures.Queue;
 
 import java.util.Arrays;
 

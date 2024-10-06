@@ -1,20 +1,6 @@
-package org.example;
+package org.dataStructures;
 
-import org.example.Array.Array;
-import org.example.HashTables.CustomHash;
-import org.example.HashTables.FirstNonRepeat;
-import org.example.HashTables.FirstRepeat;
-import org.example.LinkedList.LinkedList;
-import org.example.Queue.ArrayQueue;
-import org.example.Queue.PriorityQueue;
-import org.example.Queue.Reversing;
-import org.example.Queue.StackQueue;
-import org.example.Stacks.CustomStack;
-import org.example.Stacks.ReversingString;
-import org.example.Stacks.TwoInOne;
-
-import javax.swing.text.html.parser.Entity;
-import java.util.*;
+import org.dataStructures.Stacks.TwoInOne;
 
 public class Main {
     public static void main(String[] args) {

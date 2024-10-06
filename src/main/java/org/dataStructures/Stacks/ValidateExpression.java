@@ -1,6 +1,5 @@
-package org.example.Stacks;
+package org.dataStructures.Stacks;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;

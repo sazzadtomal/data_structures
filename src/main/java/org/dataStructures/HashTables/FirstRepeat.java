@@ -1,6 +1,5 @@
-package org.example.HashTables;
+package org.dataStructures.HashTables;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
