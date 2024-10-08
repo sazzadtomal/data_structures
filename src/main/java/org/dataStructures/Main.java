@@ -92,38 +92,38 @@ public class Main {
 //        System.out.println(stack.pop2());
 //        System.out.println(stack.pop2());
 //        stack.print();
-
-        StacksWithMin stack=new StacksWithMin();
-
-        stack.push(7);
-        stack.push(8);
-        stack.push(3);
-        stack.push(2);
-        stack.push(1);
-        stack.push(32);
-        stack.push(74);
-        stack.push(19);
-        stack.push(7);
-        stack.push(-17);
-        stack.push(1);
-        stack.push(72);
-        stack.push(15);
-        stack.push(32);
-
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
-
-        System.out.println(stack.min());
+//
+//        StacksWithMin stack=new StacksWithMin();
+//
+//        stack.push(7);
+//        stack.push(8);
+//        stack.push(3);
+//        stack.push(2);
+//        stack.push(1);
+//        stack.push(32);
+//        stack.push(74);
+//        stack.push(19);
+//        stack.push(7);
+//        stack.push(-17);
+//        stack.push(1);
+//        stack.push(72);
+//        stack.push(15);
+//        stack.push(32);
+//
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//        stack.pop();
+//
+//        System.out.println(stack.min());
 
 
 
@@ -183,6 +183,12 @@ public class Main {
 //        map.put(2,"Tulee");
 //        map.put(3,"Tanveer");
 //        map.put(4,"Mifta");
+
+
+
+
+
+
 
 //        FirstNonRepeat repeat=new FirstNonRepeat();
 //

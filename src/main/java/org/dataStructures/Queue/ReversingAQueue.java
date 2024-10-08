@@ -3,7 +3,7 @@ package org.dataStructures.Queue;
 import java.util.Queue;
 import java.util.Stack;
 
-public class Reversing {
+public class ReversingAQueue {
 
     public static Queue<Integer> reverse(Queue<Integer> list) {
         Stack<Integer> stack = new Stack<>();
