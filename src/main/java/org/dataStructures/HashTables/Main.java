@@ -17,11 +17,18 @@ public class Main {
 
         CustomHashLinear hashmap=new CustomHashLinear();
 
-        hashmap.put(11,"ball");
-        hashmap.put(12,"bat");
-        hashmap.put(13,"tennis");
-        hashmap.put(14,"table");
-        hashmap.put(1,"foot");
+        hashmap.put(5,"lala");
+        System.out.println(hashmap.isEmpty());
+        System.out.println(hashmap.get(5));
+        hashmap.remove(5);
+        System.out.println(hashmap.isEmpty());
+
+
+
+
+
+
+
 
 
 
